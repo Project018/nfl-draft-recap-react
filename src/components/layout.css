@@ -620,3 +620,13 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+/* Custom CSS */
+.tua-team {
+  background-color: aquamarine;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}

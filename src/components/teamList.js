@@ -1,6 +1,8 @@
 import React from "react"
 import Team from "./team"
 
+import "./layout.css"
+
 // Problem: Need to render list of teams in sidebar
 
 class TeamList extends React.Component {
@@ -46,10 +48,9 @@ class TeamList extends React.Component {
     }
 
     render() {
-        console.log(this.state.teams)
         return(
             <aside>
-                <ul className="nfl">
+                <ul className="nfl-teams">
                     <Team teamInfo={this.state.teams} /> 
                 </ul>
             </aside>
